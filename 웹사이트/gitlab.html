@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="UTF-8">
+        <title>GitLab</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            @font-face {
+                font-family: 'NanumSquareRound';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+            body {
+                font-family: 'NanumSquareRound';
+            }
+            button {
+                width: 100px;
+                height: 30px;
+                left: 94%;
+                font-family: 'NanumSquareRound';
+                border: 0;
+                border-radius: 10px;
+                background-color: #FC6D26;
+                color: white;
+                margin-bottom: 2%;
+            }
+            button:hover {
+                background-color: #FCA326;
+                font-size: 12px;
+            }
+            header {
+                text-align: center;
+            }
+            table {
+                margin: 0 auto;
+            }
+            tr, td {
+                vertical-align : top;
+            }
+            footer {
+                text-align: center;
+            }
+            .table {
+                border: #FC6D26 solid 2px;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <img src="https://gitlab.com/uploads/-/system/project/avatar/278964/project_avatar.png" width="150px">
+            <h1 style="color: #E24329;">GitLab.com</h1>
+        </header>
+        <div style="border: 2px solid #E24329; width: 700px; margin: 0 auto; margin-top: 2%; margin-bottom: 2%; padding: 2% 2% 2% 2%;">
+            <br>
+            <table style="color: #FC6D26;">
+                <tr>
+                    <td>제공 언어&nbsp;&nbsp;&nbsp;</td><td>영어</td>
+                </tr>
+                <tr>
+                    <td>모기업</td><td>GitLab Inc<br>미국 샌프란시스코</td>
+                </tr>
+                <tr>
+                    <td>역사</td><td>우크라이나 개발자인 드미트리 자포로제츠와 발레리 시조프가 2011년에 만들었다.<br>원격 협업 개발을 원했던 창업자의 필요에 따라<br>처음부터 코드 저장소 서비스면서 원격 협업 도구 세트로 설계되었다.</td>
+                </tr>
+                <tr>
+                    <td>특징</td><td><b>오픈소스 기반의 데브옵스 통합 플랫폼 기업</b><br>
+                        1. 오픈소스: GitLab 프로젝트 자체가 오픈소스여서 직접 서비스 발전에 기여할 수 있다.<br>
+                        2. 데브옵스: 개발(development)과 운영(operation)을 결합한 데브옵스 플랫폼이다.<br>데브옵스는 전통적으로 분리되어 있었던 개발팀과 운영팀이 같이 움직이는 방법론이다.<br>최근 보안(security)까지 통합.<br>
+                        3. 가동 시간: 99% 가동 시간이라는 더 높은 가용성을 보장한다.<br>
+                        4. 브랜치 분리: 변경한 각 세트를 마스터 브랜치와 별도의 안정적인 브랜치로 생성한다.<br>프로덕션과 스테이징의 분기가 최소한으로 있다.<br>이러한 다중 분기 접근방식은 여러 단계의 테스트 프로세스를 필요로 한다.<br>병합 요청 시 코드 검토가 까다로워진다.<br>
+                        5. 완전한 소프트웨어 개발 솔루션: 지라(Jira), 마이크로소프트 팀즈, 슬랙, G메일 같은<br>애플리케이션 및 플랫폼과 통합을 제공한다.<br><br>
+                        NASA, Sony 등 10만 개 이상의 조직이 사용하고 있다.<br>사용자 친화적이며 여러 비즈니스에 유용하게 활용할 수 있다.<br>소프트웨어의 제품 개발부터 배포와 실시간 모니터링까지 하나의 툴로써 관리되기 때문에<br>IT, 금융, 보험, 정유 등 다양한 분야의 엔터프라이즈 고객들이 깃랩의 제품을 사용 중이다.</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table style="color: #FC6D26; border: #FC6D26 solid 2px; border-collapse: collapse;">
+                <tr class="table" style="text-align: center;">
+                    <td  class="table">가격 정책</td><td class="table">무료</td><td class="table">프리미엄</td><td class="table">얼티메이트</td>
+                </tr>
+                <tr class="table">
+                    <td class="table">가격</td><td class="table">0$</td><td class="table">19$</td><td class="table">99$</td>
+                </tr>
+                <tr class="table">
+                    <td class="table">저장 용량</td><td class="table">5GB</td><td class="table">50GB</td><td class="table">250GB</td>
+                </tr>
+                <tr class="table">
+                    <td class="table">월별 전송량</td><td class="table">매월 10GB 전송</td><td class="table">매월 100GB 전송</td><td class="table">매월 500GB 전송</td>
+                </tr>
+                <tr class="table">
+                    <td class="table">CI/CD</td><td class="table">월 400CI/CD 분</td><td class="table">월 10,000CI/CD 분</td><td class="table">월 50,00CI/CD 분</td>
+                </tr>
+                <tr class="table">
+                    <td class="table">추가 혜택</td><td class="table">네임스페이스당 5명의 사용자</td><td class="table">코드 소유권 및 브랜치 보호<br>병합 요청과 승인 규칙<br>고급 CI/CD<br>엔터프라이즈 사용자 및 인시던트 관리</td><td>무료 게스트 사용자<br>동적 애플리케이션 보안 테스트<br>정적 애플리케이션 보안 테스트<br>보안 대시보드<br>취약점 관리<br>종속성 스캔<br>컨테이너 스캐닝<br>다단계 에픽<br>가치 흐름 관리</td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <button type="button" onclick="location.href='index.html';">MAIN</button>
+        </footer>
+    </body> 
+</html>
